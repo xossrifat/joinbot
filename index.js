@@ -5,6 +5,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
+require('./keep-alive');
 
 // Initialize the Discord client
 const client = new Client({
